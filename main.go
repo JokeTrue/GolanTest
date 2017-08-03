@@ -23,9 +23,7 @@ func countLines(reader io.Reader) (int, error) {
 		case err != nil:
 			return count, err
 		}
-
 	}
-
 }
 
 func main() {
